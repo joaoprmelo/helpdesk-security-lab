@@ -6,7 +6,7 @@ Repositório com os meus laboratórios e guias práticos de suporte de TI e segu
 Estudante de Ciência da Computação (UNINASSAU), com formação em redes pela Cisco Networking Academy e cursando o Cisco Junior Cybersecurity Analyst. Busco minha primeira oportunidade em Suporte de TI / Service Desk, com foco em migrar para segurança da informação.
 
 ## Ambiente dos laboratórios
-- Windows (PC próprio, 4 GB de RAM)
+- Windows (PC próprio, 8 GB de RAM)
 - Cisco Packet Tracer
 - Ferramentas gratuitas: AnyDesk, Wireshark, Microsoft Learn e outras
 
