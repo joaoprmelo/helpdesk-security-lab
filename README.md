@@ -14,8 +14,8 @@ Estudante de Ciência da Computação (UNINASSAU), com formação em redes pela 
 
 | Projeto | O que mostra | Status |
 |---|---|---|
-| [Guia de troubleshooting de Windows](./windows-troubleshooting) | 10 problemas comuns: sintoma, causa e solução | Em andamento |
-| [Sistema de chamados](./chamados) | 10 chamados fictícios abertos, atendidos e fechados | Em andamento |
+| [Guia de troubleshooting de Windows](./windows-troubleshooting) | 10 problemas comuns: sintoma, causa e solução | Concluído |
+| [Sistema de chamados](./chamados) | 10 chamados fictícios abertos, atendidos e fechados | Concluído |
 | [Laboratório de rede de pequena empresa](https://github.com/joaoprmelo/small-business-network-lab) | IPv4, DHCP, gateways e roteamento estático no Packet Tracer | Concluído |
 
 ## Competências praticadas
