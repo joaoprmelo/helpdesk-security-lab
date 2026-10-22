@@ -17,6 +17,7 @@ Estudante de Ciência da Computação (UNINASSAU), com formação em redes pela 
 | [Guia de troubleshooting de Windows](./windows-troubleshooting) | 10 problemas comuns: sintoma, causa e solução | Concluído |
 | [Sistema de chamados](./chamados) | 10 chamados fictícios abertos, atendidos e fechados | Concluído |
 | [Laboratório de rede de pequena empresa](https://github.com/joaoprmelo/small-business-network-lab) | IPv4, DHCP, gateways e roteamento estático no Packet Tracer | Concluído |
+| [Onboarding e offboarding no Active Directory](./active-directory) | Processo de referência baseado no Microsoft Learn | Concluído
 
 ## Competências praticadas
 Troubleshooting de Windows, atendimento por chamados, acesso remoto, Microsoft 365, redes básicas, documentação técnica.
