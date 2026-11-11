@@ -128,23 +128,65 @@ Criei esse cenário para aprender sobre a separação de responsabilidades ente 
 Video rapido resolvendo um chamado (demostração da abertura do chamado no e-mail, teste de triggers e aplicação da macro, resolução): **[https://youtu.be/RqNr7Q_u18Y]**
 
 
-| Item | Imagem |
-|---|---|
-| Grupos | `![Grupos](prints/grupos.png)` |
-| Campo Categoria | `![Categoria](prints/campo-categoria.png)` |
-| Views | `![Views](prints/views.png)` |
-| Triggers | `![Triggers](prints/triggers.png)` |
-| Macros | `![Macros](prints/macros.png)` |
-| Política de SLA | `![SLA](prints/sla.png)` |
-| Fila com os chamados | `![Fila](prints/fila.png)` |
-| Chamado com macro aplicada | `![Macro](prints/chamado-macro.png)` |
-| Resposta recebida no e-mail do cliente | `![E-mail](prints/email-cliente.png)` |
-| Chamado escalado para N2 | `![N2](prints/chamado-n2.png)` |
-| Phishing: e-mail enviado pelo cliente | `![Phishing cliente](prints/phishing-email-cliente.png)` |
-| Phishing: escalonamento (N1 para N2) | `![Phishing escalonamento](prints/phishing-escalonamento.png)` |
-| Phishing: resolução como N2 no Zendesk | `![Phishing resolução](prints/phishing-resolucao.png)` |
-| Phishing: resposta final recebida por e-mail | `![Phishing resposta](prints/phishing-email-resposta.png)` |
-| Painel do Zendesk Explore | `![Explore](prints/explore-dashboard.png)` |
+**Grupos**
+ 
+![Grupos](prints/grupos.png)
+ 
+**Campo Categoria**
+ 
+![Campo Categoria](prints/campo-categoria.png)
+ 
+**Views**
+ 
+![Views](prints/views.png)
+ 
+**Triggers**
+ 
+![Triggers](prints/triggers.png)
+ 
+**Macros**
+ 
+![Macros](prints/macros.png)
+ 
+**Política de SLA**
+ 
+![Política de SLA](prints/sla.png)
+ 
+**Fila com os chamados**
+ 
+![Fila com os chamados](prints/fila.png)
+ 
+**Chamado com macro aplicada**
+ 
+![Chamado com macro aplicada](prints/chamado-macro.png)
+ 
+**Resposta recebida no e-mail do cliente**
+ 
+![Resposta recebida no e-mail do cliente](prints/email-cliente.png)
+ 
+**Chamado escalado para N2**
+ 
+![Chamado escalado para N2](prints/chamado-n2.png)
+ 
+**Phishing: e-mail enviado pelo cliente**
+ 
+![Phishing: e-mail enviado pelo cliente](prints/phishing-email-cliente.png)
+ 
+**Phishing: escalonamento (N1 para N2) no Zendesk**
+ 
+![Phishing: escalonamento (N1 para N2) no Zendesk](prints/phishing-escalonamento.png)
+ 
+**Phishing: resolução como N2 no Zendesk**
+ 
+![Phishing: resolução como N2 no Zendesk](prints/phishing-resolucao.png)
+ 
+**Phishing: resposta final recebida por e-mail**
+ 
+![Phishing: resposta final recebida por e-mail](prints/phishing-email-resposta.png)
+ 
+**Painel do Zendesk Explore**
+ 
+![Painel do Zendesk Explore](prints/explore-dashboard.png)
 
 ## 6. Limitações
 
