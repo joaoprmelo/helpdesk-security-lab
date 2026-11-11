@@ -127,6 +127,7 @@ Criei esse cenário para aprender sobre a separação de responsabilidades ente 
 ### Vídeo
 Video rapido resolvendo um chamado (demostração da abertura do chamado no e-mail, teste de triggers e aplicação da macro, resolução): **[https://youtu.be/RqNr7Q_u18Y]**
 
+### Capturas de tela
 
 **Grupos**
  
