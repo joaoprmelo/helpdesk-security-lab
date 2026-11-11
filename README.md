@@ -19,6 +19,7 @@ Estudante de Ciência da Computação (UNINASSAU), com formação em redes pela 
 | [Laboratório de rede de pequena empresa](https://github.com/joaoprmelo/small-business-network-lab) | IPv4, DHCP, gateways e roteamento estático no Packet Tracer | Concluído |
 | [Onboarding e offboarding no Active Directory](./active-directory) | Processo de referência baseado no Microsoft Learn | Concluído
 | [Guia de estudos de Linux](./linux-essentials-guide) | Meu guia de estudos do que aprendi em linux | Em andamento
+| [Projeto de Service Desk no Zendesk](./zendesk-service-desk) | Projeto de Service Desk no Zendesk com chamados fictícios, macros, triggers, grupos, escalonamento, dashboard | Concluído
 
 ## Competências praticadas
 Troubleshooting de Windows, atendimento por chamados, acesso remoto, Microsoft 365, redes básicas, documentação técnica.
