@@ -56,6 +56,8 @@ Colunas exibidas: ID, assunto, solicitante, prioridade, categoria e status.
 ### 3.4 Triggers
 - **Confirmação de chamado recebido:** envia e-mail ao solicitante quando o chamado é criado.
 - **Aviso de chamado resolvido:** envia e-mail ao solicitante quando o status muda para Resolvido.
+- **Notificar escalonamento N1 para N2:** envia e-mail ao solicitante quando o chamado é escalonado.
+- **Aviso de resposta N2:** envia e-mail ao solicitante quando o chamado N2 é Resolvido.
 
 ### 3.5 Macros
 - **Redefinir senha**
@@ -108,6 +110,18 @@ Foram escritos 5 artigos de autoatendimento, disponíveis em [`base-de-conhecime
 | Aberto | 2 |
 | Novo | 1 |
 
+
+### Cenário em destaque: chamado de phishing (#10)
+
+Neste chamado simulei o ciclo completo de um escalonamento entre níveis, usando os dois notebooks:
+
+1. **Cliente (Notebook A):** abriu o chamdo informando que recebeu um e-mail suspeito pedindo dados bancários e que clicou no link
+2. **Atendimento N1 (Notebook B):** assumi o chamado como N1, identifiquei que o caso exigia ação de segurança e registrei o **escalonamento para N2**, avisando que o caso seria tratado em um nível acima.
+3. **Atendimento N2 (Notebook B):** atuando como N2, conduzi a resolução: troca de senha, revisão de acessos recentes e orientação ao usuário sobre como reconhecer e reportar phishing.
+4. **Encerramento*:* chamado marcado como **Resolvido**, com o cliente recebendo a resposta final por e-mail
+
+Criei esse cenário para aprender sobre a separação de responsabilidades ente N1 e N2 e a comunicação com o usuário em cada etapa, com um tema ligado à minha área de estudo em segurança da informação.
+
 ## 5. Demonstração
 
 ### Vídeo
@@ -126,15 +140,20 @@ Video rapido resolvendo um chamado (demostração da abertura do chamado no e-ma
 | Chamado com macro aplicada | `![Macro](prints/chamado-macro.png)` |
 | Resposta recebida no e-mail do cliente | `![E-mail](prints/email-cliente.png)` |
 | Chamado escalado para N2 | `![N2](prints/chamado-n2.png)` |
+| Phishing: e-mail enviado pelo cliente | `![Phishing cliente](prints/phishing-email-cliente.png)` |
+| Phishing: escalonamento (N1 para N2) | `![Phishing escalonamento](prints/phishing-escalonamento.png)` |
+| Phishing: resolução como N2 no Zendesk | `![Phishing resolução](prints/phishing-resolucao.png)` |
+| Phishing: resposta final recebida por e-mail | `![Phishing resposta](prints/phishing-email-resposta.png)` |
+| Painel do Zendesk Explore | `![Explore](prints/explore-dashboard.png)` |
 
 ## 6. Limitações
 
 - A conta de teste ficou temporariamente sem acesso (o código de verificação de login deixou de chegar), o que atrasou o atendimento dos chamados. O acesso foi liberado depois e o atendimento foi concluído.
-- Os relatórios do **Explore** (tempo de resposta, volume por categoria e satisfação) ainda não estavam disponíveis na conta no momento da finalização. Os prints serão adicionados em uma atualização do projeto.
+- Os relatórios do **Explore** (tempo de resposta, volume por categoria e satisfação) ainda não estavam disponíveis na conta no momento da finalização. Os prints serão adicionados em uma atualização do projeto juntamente aos prints do cenário de chamando de phishing.
   
 ## 7. Lições aprendidas
 
-- Contas de teste dependem da verificação de login por e-mail e podem perder o acesso por motivos fora do controle do usuário. Por isso, vale manter a configuração e os textos documentados em arquivos no repositório e ter uma ferramenta alternativa (como o Freshdesk) como plano B.
+- Contas de teste dependem da verificação de login por e-mail e podem perder o acesso por motivos fora do controle do usuário. Por isso, vale manter a configuração e os textos documentados em arquivos no repositório e ter uma ferramenta alternativa (como o Freshdesk, ServiceNow ou similaress) como plano B.
 - Entender a diferença entre campos padrão do Zendesk (Tipo, Prioridade) e campos personalizados (Categoria).
 - Usar macros e triggers reduz trabalho repetitivo e padroniza a comunicação com o cliente.
 - Documentar escalonamentos com notas internas deixa o histórico do chamado claro para o próximo nível.
